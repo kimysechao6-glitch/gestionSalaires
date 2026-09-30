@@ -14,10 +14,11 @@ public class GestionSalaires {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Tests applicatifs
         Developpeur d = new Developpeur("Durand", "Michel", 4);
         Manager m = new Manager("Dupont", "Lucie", 2);
+        Administratif a = new Administratif("Martin", "Paul", 3);
         
+        System.out.println(a.getDescription());
         System.out.println(d.getDescription());
         System.out.println(m.getDescription());
     }
