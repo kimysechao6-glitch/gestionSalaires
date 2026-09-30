@@ -22,7 +22,7 @@ public class Developpeur extends Employe {
             case "java":   return 50;
             case "python": return 70;
             case "php":    return 45;
-            default:       return 0; // autres langages : pas de prime
+            default:       return 0;
         }
     }
 
